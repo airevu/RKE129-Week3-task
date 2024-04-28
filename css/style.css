@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 166, 242);
+}
+
+header {
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(175, 7, 247);
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+}
+
+main {
+    margin: 0 auto;
+    padding: 30px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+}
