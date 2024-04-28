@@ -15,6 +15,13 @@ header {
     background-color: rgb(175, 7, 247);
     font-family: "Lugrasimo", cursive;
     font-weight: 400;
+    position: relative;
+    top: -100px;
+    animation: header 5s ease-in-out forwards;
+}
+
+@keyframes header {
+    100% {top: 0;}
 }
 
 main {
@@ -22,9 +29,21 @@ main {
     padding: 30px;
     font-family: "Lugrasimo", cursive;
     font-weight: 400;
+    animation: main 5s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes main {
+    100% {opacity: 1;}
 }
 
 h2 {
     font-family: "Lugrasimo", cursive;
     font-weight: 400;
+    position: relative;
+    left: -300px;
+    animation: h2 5s ease-in-out forwards;
+}
+
+@keyframes h2 {
+    100% {left: 0;}
 }
